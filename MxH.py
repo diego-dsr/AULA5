@@ -21,7 +21,7 @@ R23B = medida_MxH(r'C:\Users\diego.saldanha\Documents\AULA\AULA5\R23B_002')
 R23C = medida_MxH(r'C:\Users\diego.saldanha\Documents\AULA\AULA5\R23C_002')
 
 # Cria a figura
-plt.figure('MxH', figsize=(5, 4))
+plt.figure('MxH', figsize=(8,6))
 
 # Plota e guarda os "handles" de cada curva
 h1 = R23.plotMn('ko-', 'MxH')
