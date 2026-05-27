@@ -40,6 +40,6 @@ plt.ylabel('$M/M_s$ (a.u.)')
 plt.title(f'$[NiFe/IrMn/Ta]_N$')
 plt.grid(True)
 plt.tight_layout()
-#plt.savefig(f'/home/saldanha/UFSM/Ricardo/MxH/R23/R23_A_B_C.png', dpi=150, bbox_inches='tight')
+#plt.savefig(f'C:\Users\diego.saldanha\Documents\AULA\AULA5\R23_A_B_C.png', dpi=150, bbox_inches='tight')
 
 plt.show()
