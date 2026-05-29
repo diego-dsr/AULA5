@@ -5,7 +5,7 @@ print(sys.version)
 
 import numpy
 print(numpy.__version__)
-sys.path.append(r'C:\Users\diego\OneDrive\Documentos\GitHub\AULA5')
+sys.path.append(r'C:\Users\diego.saldanha\Documents\AULA\AULA5')
 import MxH_A
 medida_MxH = MxH_A.MxH
 import sys
@@ -15,10 +15,10 @@ import glob
 import os
 
 # Leitura das medidas
-R23  = medida_MxH(r'C:\Users\diego\OneDrive\Documentos\GitHub\AULA5\R23_002')
-R23A = medida_MxH(r'C:\Users\diego\OneDrive\Documentos\GitHub\AULA5\R23A_001')
-R23B = medida_MxH(r'C:\Users\diego\OneDrive\Documentos\GitHub\AULA5\R23B_002')
-R23C = medida_MxH(r'C:\Users\diego\OneDrive\Documentos\GitHub\AULA5\R23C_002')
+R23  = medida_MxH(r'C:\Users\diego.saldanha\Documents\AULA\AULA5\R23_002')
+R23A = medida_MxH(r'C:\Users\diego.saldanha\Documents\AULA\AULA5\R23A_001')
+R23B = medida_MxH(r'C:\Users\diego.saldanha\Documents\AULA\AULA5\R23B_002')
+R23C = medida_MxH(r'C:\Users\diego.saldanha\Documents\AULA\AULA5\R23C_002')
 
 # Cria a figura
 plt.figure('MxH', figsize=(5, 4))
